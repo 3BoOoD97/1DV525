@@ -1,0 +1,84 @@
+#img {
+  display: block;
+  margin: auto;
+  height: 128px;
+  width: 128px;
+  padding: 2rem;
+}
+
+#canvas {
+  display: block;
+  margin: 2rem auto;
+  width: 540px;
+  height: 540px;
+}
+
+p.solid {border-style: solid;
+  font-size: 100px;
+  text-align: center;
+  font-size: 28px;
+  margin: 4px 2px;
+  width: 900px;
+  height: 200px;
+  top: 250px;
+  left: 300px;
+  position: fixed;
+}  
+
+.startbtn {
+  background-color: lightsteelblue;
+  text-align: center;
+  display: inline-block;
+  font-size: 28px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 200px;
+  height: 100px;
+  position: fixed;
+  left: 600px;
+  top: 130px;
+}
+
+.username {
+  width: 200px;
+  height: 30px;
+  top: 30px;
+  position: fixed;
+  left: 600px;
+}
+
+.anstxbox {
+  width: 200px;
+  height: 50px;
+  top: 480px;
+  position: absolute;
+  left: 600px;
+}
+
+.nxtquestionbtn {
+  background-color: lightskyblue;
+  text-align: center;
+  display: inline-block;
+  font-size: 28px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 300px;
+  height: 100px;
+  position: fixed;
+  left: 760px;
+  top: 550px;
+}
+
+.ansbtn {
+  background-color: lightskyblue;
+    text-align: center;
+    display: inline-block;
+    font-size: 28px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 300px;
+    height: 100px;
+    position: fixed;
+    left: 400px;
+    top: 550px;
+  }

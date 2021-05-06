@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    background: #fff;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+}
+
+body{
+    background: #0f446d;
+    min-height: 1500px; 
+}
+.imagesection{
+  position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+section img 
+{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+
+
+  .topnav {
+    background-color: #4682B4;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color:black;
+    color: white;
+  }
+
+.fbagentFont{
+    font-family: Agency FB;
+font-size: 300%;
+text-align: center;
+color: snow;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+
+  .content {
+    min-height: calc(50vh - 70px);
+    color: white;
+
+  }
+  .footer {
+    height: 50px;
+  }
+
+  .newRoman{
+    font-family: 'Times New Roman', Times, serif;
+    color: snow;
+    }
+
+    .goldNewRoman{
+      font-family: 'Times New Roman', Times, serif;
+      color: rgba(223, 194, 30, 0.767);
+    }
+
+    .question{
+      font-family: 'Times New Roman', Times, serif;
+      color: red;
+      font-size: 20px;
+      font-weight: bold;
+      text-decoration: underline;
+    }

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Desktop</title>
+	<meta charset="utf-8">
+	<script type="module" src="/desktop.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+<body>
+
+		<input type="image"  class="memGameIcon" src="https://is2-ssl.mzstatic.com/image/thumb/Purple122/v4/4a/0e/9d/4a0e9d9a-8317-fe25-30f5-7715b3523651/source/256x256bb.jpg" width="48" height="48" id="memGame"> 
+
+<div class="memGamTxt">Memory Game</div> 
+
+<input type="image"  class="hangManIcon" src="https://www.flaticon.com/svg/static/icons/svg/2231/2231009.svg" width="70" height="70" id="hngmanGame"> 
+<div class="hangGamTxt">Hang Man</div> 
+
+<input type="image"  class="settingsIcon" src="https://www.flaticon.com/svg/static/icons/svg/3771/3771219.svg" width="70" height="70" id="settings"> 
+<div class="settingsTxt">Settings</div> 
+
+<input type="image"  class="chatIcon" src="https://www.flaticon.com/svg/static/icons/svg/3790/3790918.svg" width="60" height="60" id="chat"> 
+<div class="chatTxt">Chat</div> 
+
+	<div class="ws">
+			<template>
+					<div class="window">
+							<div class="navWindow">
+									
+									<img  class="memGameIconWinBar" src="https://is2-ssl.mzstatic.com/image/thumb/Purple122/v4/4a/0e/9d/4a0e9d9a-8317-fe25-30f5-7715b3523651/source/256x256bb.jpg"> 
+							</div>
+					</div>
+			</template>
+	</div>
+	<div class="windowContainer">
+		<template>
+				<div class="window">
+						<div class="navWindow">
+								<button class="buttonX">X</button>
+								<img  class="memGameIconWinBar" src="https://is2-ssl.mzstatic.com/image/thumb/Purple122/v4/4a/0e/9d/4a0e9d9a-8317-fe25-30f5-7715b3523651/source/256x256bb.jpg"> 
+						</div>
+				</div>
+		</template>
+</div>
+
+	<div id="memoryContainer">
+			<template>
+					<div class="memory">
+									<img src="img/mem/0.png" alt="memoryImg"/>		
+					</div>
+			</template>
+	</div>
+
+		<div class="hangManContainer">
+			<template>
+					<div class="hMan">
+
+							<div class="hManArea">
+							</div>
+							
+							<div class="hManAreaBorder">
+							</div>
+							<div class="text">
+									<textarea></textarea>
+							</div>
+					</div>
+			</template>
+	</div>
+
+	<div class="settingsWindow" id ="settingsWindow">
+		<div class="navWindow">
+			<div class="whiteFont">	Settings
+
+			<button class="buttonX" onclick="clsoeSet();">X</button>
+			</div>
+		<br><br>
+	<select name="dimension" class="dimension" id="dimension-select">
+		<option value="">--Please choose an option--</option>
+		<option value="4x4">4x4</option>
+		<option value="2x2">2x2</option>
+		<option value="2x4">2x4</option>
+	</select>
+			<br><br>	
+			<button class="aplyButton"  id="confirm-dimension">Apply</button>
+</div>
+</div>
+
+<div class="chatContainer">
+	<template>
+			<div class="chat">
+					<div class="showMessages">
+							Messages
+					</div>
+					
+
+					<div class="MyName"></div>
+					<div class="text">
+							<textarea class="sendToServer"></textarea>
+							
+					</div>
+			</div>
+			
+	</template>
+</div>
+
+
+</body>
+
+<script>
+	function clsoeSet(){
+		document.getElementById("settingsWindow").style.visibility = "hidden";
+	}   
+	</script>
+
+<script nomodule src="build.js"></script>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+
+
+</html>
