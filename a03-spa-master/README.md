@@ -5,9 +5,6 @@ Repo for the assignment 03.
 
 Bootstrapped with Create Snowpack App (CSA) and slightly modified with the development environment.
 
-Presentation
-----------------------
-https://www.youtube.com/watch?v=SFGysXvz5Go
 
 
 
